@@ -1,0 +1,105 @@
+.App {
+  width:100vw;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.student-section{
+  color:#fff;
+  margin:0;
+  display: flex;
+  align-items: center;
+}
+.student-section h2{
+  color:darkgreen;
+}
+.all-students{
+  height:700px;
+  flex:4
+}
+ul{
+  margin:0;
+  text-align: left;
+}
+ul li{
+  text-align: left;
+  display: flex;
+  justify-content:space-around;
+  margin:3px;
+  list-style: none;
+}
+li span{
+  margin:0;
+}
+.all-students li{
+ 
+  padding:8px;
+  /* margin:2px; */
+  border-radius:3px;
+  background-color: cadetblue;
+}
+
+.present-students{
+  height:700px;
+  text-align:center;
+  flex:4
+}
+.present-students li{
+  padding:8px;
+  border-radius: 3px;
+  background-color: darkgreen;
+}
+.Absent-students{
+  height:700px;
+  text-align: center;
+  flex:4
+}
+.Absent-students li{
+  padding:8px;
+  border-radius: 3px;
+  background-color:crimson;
+}
+button{
+  padding:3px 6px;
+  border:burlywood;
+  border-radius: 3px;
+  background-color:darkslategray;
+  color:#fff;
+}
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
